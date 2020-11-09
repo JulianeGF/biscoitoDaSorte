@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vwSobre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D63447"
+    tools:context=".SobreActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="103dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="426dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fortunecookie2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="195dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="439dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Feito por Juliane Ferreira.
+        Projeto do curso Basico Kotlin/Android Studio pela Cellep e Estação Hack - Facebook.
+        01/10/2020
+        Em construção!"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
